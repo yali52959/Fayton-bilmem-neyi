@@ -12,7 +12,7 @@ if x >= 11500 and x <= 15000:
 elif x >= 15000 and x <= 20000:
     print("%20 maaş artışı! artık yeni maaşınız: ",int(x*(120/100)))
 elif x >= 20000 and x <= 25000:
-    print("%25 maaş artışı! artık yani maaşınız: ",x*(125/100))
+    print("%25 maaş artışı! artık yani maaşınız: ",int(x*(125/100)))
 elif x >= 25000:
     print("zam yok!")
 else:
